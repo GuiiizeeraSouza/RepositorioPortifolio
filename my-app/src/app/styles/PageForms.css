@@ -1,0 +1,18 @@
+.FormsContainer {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+@media (min-width: 1238px) {
+    .FormsContainer {
+        height: 90vh;
+    }
+}
+
+@media(width: 820px) {
+    .FormsContainer {
+        margin-left: 47vh;
+    }
+
+}

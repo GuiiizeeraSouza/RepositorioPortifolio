@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.InitialContent {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+.Title {
+    margin-top: 25vh;
+}
+
+.SubtitleDev {
+    margin-left: 2vh;
+}
+
+.LinksNavgation {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-top: 5vh;
+    justify-content: center;
+}
+
+&:hover {
+    .test1 {
+        text-decoration: none;
+        transition: .95s ease;
+        cursor: pointer;
+    }
+
+
+    .test1 {
+        color: #CCC;
+
+        &:hover {
+            color: #fbfbfb;
+            transform: translateY(-5px);
+            box-shadow: 0 2px 0px 0 currentcolor;
+        }
+    }
+}
+
+@media (width: 820px) {
+    .InitialContent {
+        height: 80vh;
+        width: 65vh;
+        margin-left: 43vh;
+    }
+
+    .test1 {
+        offset-position: 510px;
+    }
+
+    &:hover {
+        .test1 {
+            text-decoration: none;
+            transition: .95s ease;
+            cursor: pointer;
+        }
+
+
+        .test1 {
+            color: #CCC;
+
+            &:hover {
+                color: #fbfbfb;
+                transform: translateY(-5px);
+                box-shadow: 0 2px 0px 0 currentcolor;
+            }
+        }
+    }
+}
+
+@media (width: 430px) {
+    .InitialContent {
+        width: 35vh;
+    }
+
+    .Title {
+        font-size: 35px !important;
+        margin-top: 25vh;
+    }
+    
+    .SubtitleDev {
+        margin-left: 2vh;
+    }
+    
+}
+
+@media (width: 393px) {
+    .InitialContent {
+        width: 39vh;
+    }
+
+    .Title {
+        font-size: 25px !important;
+        margin-top: 25vh;
+    }
+    
+    .SubtitleDev {
+        font-size: 15px;
+        margin-left: 2vh;
+    }
+
+    .LinksNavgation {
+        font-size: 15px;
+    }
+}

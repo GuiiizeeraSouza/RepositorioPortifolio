@@ -1,0 +1,25 @@
+.Anchor {
+    width: 100%;
+    height: 50px;
+    margin-right: 12vh;
+    margin-top: 78vh;
+    position: fixed;
+    color: #FFF;
+    display: flex;
+    justify-content: flex-end;
+}
+
+&:hover {
+    .test2 {
+        text-decoration: none;
+        transition: .55s ease;
+        cursor: pointer;
+    }
+
+
+    .test2 {
+       &:hover {
+            transform: translateY(-5px);
+        }
+    }
+}

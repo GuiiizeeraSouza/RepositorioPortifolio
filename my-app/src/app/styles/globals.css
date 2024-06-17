@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #171717;
+}
+
+@media (min-width: 1238px) {
+  #main {
+    padding-right: 120px;
+  }
+}
+
+@media (min-width: 1559px) {
+ #main {
+      padding-bottom: 20vh;
+  }
+}
+
+@media (width: 820px) {
+  #main {
+    padding-right: 56vh;
+  }
+}

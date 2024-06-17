@@ -1,0 +1,123 @@
+.SkilsContent {
+    height: 100vh;
+    width: 100%;
+    margin-left: 18vh;
+    display: flex;
+}
+
+.item {
+    padding: 0;
+    grid-area: "item";
+    width: 15vh;
+}
+
+.teste {
+    transform: rotate(-90deg) !important;
+}
+
+.skils {
+    width: 100px !important;
+    height: 70vh !important;
+    margin: 0px;
+    display: grid;
+    grid-template-areas:
+        "item item item item"
+        "item item item item"
+        "item item item item"
+        "item item item item"
+    ;
+}
+
+@media (width: 1238px) {
+    .SkilsContent {
+        display: flex;
+        width: 100%;
+        align-items: stretch;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin-left: -95vh;
+    }
+
+    #titleSkils {
+        margin-left: -20vh !important;
+    }
+}
+
+@media (width: 1559px) {
+    .SkilsContent {
+        margin-left: -35vh;
+    }
+}
+
+@media (width: 820px) {
+    .SkilsContent {
+        display: flex;
+        height: 60vh;
+        width: 820px;
+        padding: 0px;
+        margin-right: 40vh;
+        margin-top: 20vh;
+    }
+
+    .skils {
+        width: 50px !important;
+        height: 20px !important;
+    }
+
+    .item {
+        width: 10vh;
+    }
+
+    #titleSkils {
+        font-size: 110px !important;
+    }
+}
+
+@media (width: 430px) {
+
+    .SkilsContent {
+        display: flex;
+        height: 90vh;
+        width: 430px;
+        padding: 0px;
+        margin-right: 75vh;
+    }
+
+    .skils {
+        width: 50px !important;
+        height: 20px !important;
+    }
+
+    .item {
+        width: 7vh;
+    }
+
+    #titleSkils {
+        margin-left: -25vh !important;
+        font-size: 60px !important;
+    }
+}
+
+@media (width: 480px) {
+    .SkilsContent {
+        display: flex;
+        height: 90vh;
+        width: 430px;
+        padding: 0px;
+        margin-right: 75vh;
+    }
+
+    .skils {
+        width: 50px !important;
+        height: 20px !important;
+    }
+
+    .item {
+        width: 7vh;
+    }
+
+    #titleSkils {
+        margin-left: -27vh !important;
+        font-size: 60px !important;
+    }
+}
