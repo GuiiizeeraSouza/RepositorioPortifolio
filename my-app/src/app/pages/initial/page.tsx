@@ -3,7 +3,7 @@
 import { Button, Tooltip } from "@nextui-org/react";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
-import Typical from 'react-typical';
+
 
 export default function Initial() {
     return (
@@ -48,12 +48,7 @@ export default function Initial() {
                             wordWrap: 'break-word',
                         }}
                     >
-                        <Typical
-                            steps={['Desenvolvedor', 1500, 'Desenvolvedor Front-End!', 1500]}
-                            loop={1}
-                            wrapper="p"
-                        />
-
+                        {"< "}  Desenvolvedor Front-End  /{" >"}
                     </div>
                 </section>
                 <section className="LinksNavgation">
@@ -128,7 +123,7 @@ export default function Initial() {
                     >
                         <Tooltip content="Clique para baixar">
                             <Button style={{ marginTop: '-5px' }} color="default" variant="shadow">
-                                <a href="https://drive.google.com/file/d/1Ns3JAhTJWEr-qw5xUKWOLz3O-3S1GCJ6/view?usp=sharing" target="_blank" download={"cv"}>Curriculo</a>
+                              <a href="https://drive.google.com/file/d/1Ns3JAhTJWEr-qw5xUKWOLz3O-3S1GCJ6/view?usp=sharing" target ="_blank" download={"cv"}>Curriculo</a>  
                             </Button>
                         </Tooltip>
                     </motion.div>
