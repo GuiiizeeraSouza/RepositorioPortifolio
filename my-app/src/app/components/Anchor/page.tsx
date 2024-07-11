@@ -9,7 +9,7 @@ export default function Anchor() {
     return (
         <motion.div className="Anchor"
             initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1, y: 10 }}
+            whileInView={{ opacity: 1, y: -10 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 1.0 }}
         >
@@ -18,8 +18,8 @@ export default function Anchor() {
                 
                 <Image
                     isBlurred
-                    width={30}
-                    src="/ancora.png"
+                    width={40}
+                    src="/letra-g.png"
                     alt="NextUI Album Cover"
                     className="m-3"
 

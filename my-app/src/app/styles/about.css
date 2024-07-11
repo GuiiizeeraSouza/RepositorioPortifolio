@@ -5,8 +5,11 @@
     height: 150vh;
     width: 100%;
     align-items: center;
-    background: radial-gradient(circle, #1C1B26 0%, #171717 70%, #171717 100%);
+    margin-right: 20vh;
+    background: radial-gradient(90% 50% at 10% 50%, #03ABBB 0%, #0D6169 0.01%, #123C40 0.02%, #152A2C 21.5%, #162021 44.5%, #171717 67.5%);
+
 }
+
 
 .notebook {
     width: 1795px;
@@ -18,16 +21,16 @@
     width: 500.032px;
     height: 165.51px;
     transform: rotate(89.944deg);
-    color: #FFF;
+    color: #03ABBB;
     text-align: center;
     font-family: "Inria Sans";
-    font-size: 250px;
+    font-size: 200px;
     font-style: normal;
     font-weight: 700;
     line-height: 119.912%;
     letter-spacing: -15.2px;
-    margin-left: -69vh;
-    margin-top: -20vh;
+    margin-left: -75vh;
+    margin-top: -10vh;
 }
 
 .text {
@@ -38,11 +41,11 @@
     justify-content: center;
     color: #FFF;
     font-family: "Inria Sans";
-    font-size: 35px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    letter-spacing: -2.4px;
+    letter-spacing: -1.4px;
 }
 
 @media (width: 1238px) {
@@ -196,12 +199,11 @@
     .text {
         display: flex;
         width: 454px;
-        height: 20px !important;
+        height: 10px !important;
         flex-direction: column;
         justify-content: center;
         color: #FFF;
         font-family: "Inria Sans";
-        font-size: 10px;
         font-style: normal;
         font-weight: 300;
         line-height: normal;

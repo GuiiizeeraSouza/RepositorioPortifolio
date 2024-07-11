@@ -1,8 +1,19 @@
 .SkilsContent {
-    height: 100vh;
+    height: 190vh;
     width: 100%;
     margin-left: 18vh;
     display: flex;
+    flex-shrink: 0;
+}
+
+.LedRosa {
+    background: radial-gradient(25.65% 10% at 70% 28%, rgba(207, 100, 154, 0.40) 0%, rgba(115, 62, 89, 0.40) 0.01%, rgba(47, 33, 40, 0.40) 36%, rgba(35, 28, 32, 0.40) 50.5%, rgba(24, 23, 24, 0.40) 70.5%);
+}
+
+#titleSkils {
+    font-size: 130px;
+    color: #CF649A;
+    margin-top: 50vh;
 }
 
 .item {
@@ -19,6 +30,7 @@
     width: 100px !important;
     height: 70vh !important;
     margin: 0px;
+    margin-top: 50vh;
     display: grid;
     grid-template-areas:
         "item item item item"

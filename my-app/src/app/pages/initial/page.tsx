@@ -3,7 +3,7 @@
 import { Button, Tooltip } from "@nextui-org/react";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
-
+import Typical from 'react-typical';
 
 export default function Initial() {
     return (
@@ -48,7 +48,12 @@ export default function Initial() {
                             wordWrap: 'break-word',
                         }}
                     >
-                        {"<"}Desenvolvedor Front-End{">"}
+                        <Typical
+                            steps={['Desenvolvedor', 1500, 'Desenvolvedor Front-End!', 1500]}
+                            loop={1}
+                            wrapper="p"
+                        />
+
                     </div>
                 </section>
                 <section className="LinksNavgation">
@@ -69,7 +74,7 @@ export default function Initial() {
                         }}
                     >
                         <Link activeClass="active" className="test1" to="Skils"
-                            spy={true} smooth={true} duration={1500} offset={-100}>Skils</Link>
+                            spy={true} smooth={true} duration={1500} offset={300}>Skills</Link>
 
                     </motion.div>
                     <motion.div
@@ -112,7 +117,7 @@ export default function Initial() {
                     >
                         <Link activeClass="active" className="test1"
                             to="form" spy={true}
-                            smooth={true} duration={3000} offset={100}>Contato</Link>
+                            smooth={true} duration={3000} offset={500}>Contato</Link>
 
                     </motion.div>
                     <motion.div
@@ -123,7 +128,7 @@ export default function Initial() {
                     >
                         <Tooltip content="Clique para baixar">
                             <Button style={{ marginTop: '-5px' }} color="default" variant="shadow">
-                                Curriculo
+                                <a href="https://drive.google.com/file/d/1Ns3JAhTJWEr-qw5xUKWOLz3O-3S1GCJ6/view?usp=sharing" target="_blank" download={"cv"}>Curriculo</a>
                             </Button>
                         </Tooltip>
                     </motion.div>

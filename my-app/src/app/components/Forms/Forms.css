@@ -1,6 +1,6 @@
 .Forms {
     width: 858.069px;
-    height: 779.496px;
+    height: 549.496px;
     flex-shrink: 0;
     border-radius: 50px;
     margin: 250px;
@@ -33,6 +33,7 @@
     border-radius: 7px;
     background: #FFF;
     font-size: medium;
+    text-align: center;
 }
 
 .InputEmail {
@@ -43,6 +44,7 @@
     border-radius: 7px;
     background: #FFF;
     font-size: medium;
+    text-align: center;
 }
 
 .Textarea {
@@ -53,6 +55,7 @@
     border-radius: 7px;
     background: #FFF;
     font-size: 18px;
+    text-align: center;
 }
 
 .buttonInput {
@@ -60,7 +63,7 @@
     height: 61.764px;
     flex-shrink: 0;
     border-radius: 7px;
-    color: #000000;
+    color: #4A0C7B;
     font-family: "Inria Sans";
     font-size: 40px;
     font-style: normal;

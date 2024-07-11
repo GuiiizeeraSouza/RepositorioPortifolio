@@ -1,12 +1,15 @@
 .Anchor {
     width: 100%;
     height: 50px;
-    margin-right: 12vh;
-    margin-top: 78vh;
-    position: fixed;
+    margin-right: 10vh;
+    margin-top: -5vh;
+    position: fixed !important;
     color: #FFF;
     display: flex;
     justify-content: flex-end;
+}
+.test2:active  {
+    transform: scale(1.23) !important;
 }
 
 &:hover {
@@ -14,12 +17,17 @@
         text-decoration: none;
         transition: .55s ease;
         cursor: pointer;
+        outline: none;
+        transition: 0.3s all;
     }
 
 
     .test2 {
-       &:hover {
-            transform: translateY(-5px);
+        &:hover {
+           transform: translatey(-1px);
         }
+
     }
+
 }
+
